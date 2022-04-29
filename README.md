@@ -23,6 +23,6 @@ make cli
 
 ### Environment Variables
 
-| Name                | Default Value         | Description                                                       |   |
-|---------------------|-----------------------|-------------------------------------------------------------------|---|
-| SCHEMA_REGISTRY_URL | http://127.0.0.1:8081 | The CLI tool is going to connect to this schema registry instance |   |
+| Name                | Default Value         | Description                                                       |
+|---------------------|-----------------------|-------------------------------------------------------------------|
+| SCHEMA_REGISTRY_URL | http://127.0.0.1:8081 | The CLI tool is going to connect to this schema registry instance |

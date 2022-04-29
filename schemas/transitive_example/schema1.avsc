@@ -1,0 +1,11 @@
+{
+    "type": "record",
+    "name": "r",
+    "fields": [
+      {
+        "name": "f0",
+        "type": "int",
+        "default": 1
+      }
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+    "name": "person",
+    "type": "record",
+    "fields": [
+      {
+          "name": "address",
+          "type": "string",
+          "default": "dd"
+      },
+      {
+        "name": "age",
+        "type": "string",
+        "default": "1"
+      },
+      {
+        "name": "att1",
+        "type": "string",
+        "default": "2"
+      }
+    ]
+  }

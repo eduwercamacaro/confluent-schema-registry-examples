@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ruby /lib/update_schema_config.rb $1 $2

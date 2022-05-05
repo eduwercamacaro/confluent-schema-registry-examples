@@ -26,3 +26,11 @@ make cli
 | Name                | Default Value         | Description                                                       |
 |---------------------|-----------------------|-------------------------------------------------------------------|
 | SCHEMA_REGISTRY_URL | http://127.0.0.1:8081 | The CLI tool is going to connect to this schema registry instance |
+
+## Start Kafka dev
+
+```bash
+docker run --rm -it --net=host \
+           -e DISABLE=elastic,hbase -e SAMPLEDATA=0 -e RUNTESTS=0 -e FORWARDLOGS=0  \
+           lensesio/fast-data-dev
+```
